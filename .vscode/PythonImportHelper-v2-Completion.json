@@ -1,0 +1,479 @@
+[
+    {
+        "label": "emoji",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "emoji",
+        "description": "emoji",
+        "detail": "emoji",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "desafios-python.desafio001",
+        "description": "desafios-python.desafio001",
+        "peekOfCode": "nome = input(\"Qual é o seu nome? \")\nprint('Olá,' , nome , 'prazer em te conhecer!')",
+        "detail": "desafios-python.desafio001",
+        "documentation": {}
+    },
+    {
+        "label": "dia",
+        "kind": 5,
+        "importPath": "desafios-python.desafio002",
+        "description": "desafios-python.desafio002",
+        "peekOfCode": "dia = input('Dia = ')\nmes = input('Mês = ')\nano = input('Ano = ')\nprint('você nasceu no dia' , dia , 'de' , mes , 'de' , ano , ', correto?')",
+        "detail": "desafios-python.desafio002",
+        "documentation": {}
+    },
+    {
+        "label": "mes",
+        "kind": 5,
+        "importPath": "desafios-python.desafio002",
+        "description": "desafios-python.desafio002",
+        "peekOfCode": "mes = input('Mês = ')\nano = input('Ano = ')\nprint('você nasceu no dia' , dia , 'de' , mes , 'de' , ano , ', correto?')",
+        "detail": "desafios-python.desafio002",
+        "documentation": {}
+    },
+    {
+        "label": "ano",
+        "kind": 5,
+        "importPath": "desafios-python.desafio002",
+        "description": "desafios-python.desafio002",
+        "peekOfCode": "ano = input('Ano = ')\nprint('você nasceu no dia' , dia , 'de' , mes , 'de' , ano , ', correto?')",
+        "detail": "desafios-python.desafio002",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "desafios-python.desafio003",
+        "description": "desafios-python.desafio003",
+        "peekOfCode": "n1 = int(input('digite um número: '))\nn2 = int(input('digite outro número: '))\ns = n1 + n2\nprint('A soma entre' , n1 , 'e' , n2 , 'é iqual a' , s)",
+        "detail": "desafios-python.desafio003",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "desafios-python.desafio003",
+        "description": "desafios-python.desafio003",
+        "peekOfCode": "n2 = int(input('digite outro número: '))\ns = n1 + n2\nprint('A soma entre' , n1 , 'e' , n2 , 'é iqual a' , s)",
+        "detail": "desafios-python.desafio003",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "desafios-python.desafio003",
+        "description": "desafios-python.desafio003",
+        "peekOfCode": "s = n1 + n2\nprint('A soma entre' , n1 , 'e' , n2 , 'é iqual a' , s)",
+        "detail": "desafios-python.desafio003",
+        "documentation": {}
+    },
+    {
+        "label": "msg",
+        "kind": 5,
+        "importPath": "exercicios-python.ex001",
+        "description": "exercicios-python.ex001",
+        "peekOfCode": "msg = \"Olá, Mundo!\"\nprint(msg)",
+        "detail": "exercicios-python.ex001",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "exercicios-python.ex002",
+        "description": "exercicios-python.ex002",
+        "peekOfCode": "nome = input(\"Digite seu nome: \")\nprint('E um prazer te conhecer, {} , {} é muito legal!' .format(nome, nome))",
+        "detail": "exercicios-python.ex002",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "exercicios-python.ex003",
+        "description": "exercicios-python.ex003",
+        "peekOfCode": "n1 = int(input(\"Digite um valor: \"))\nn2 = int(input(\"Digite outro valor: \"))\ns = n1 + n2\nprint(\"A soma entre {} e {} e iqual a {}\" .format(n1, n2, s))",
+        "detail": "exercicios-python.ex003",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "exercicios-python.ex003",
+        "description": "exercicios-python.ex003",
+        "peekOfCode": "n2 = int(input(\"Digite outro valor: \"))\ns = n1 + n2\nprint(\"A soma entre {} e {} e iqual a {}\" .format(n1, n2, s))",
+        "detail": "exercicios-python.ex003",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "exercicios-python.ex003",
+        "description": "exercicios-python.ex003",
+        "peekOfCode": "s = n1 + n2\nprint(\"A soma entre {} e {} e iqual a {}\" .format(n1, n2, s))",
+        "detail": "exercicios-python.ex003",
+        "documentation": {}
+    },
+    {
+        "label": "texto",
+        "kind": 5,
+        "importPath": "exercicios-python.ex004",
+        "description": "exercicios-python.ex004",
+        "peekOfCode": "texto = input(\"Digite algo: \")\nprint(type(texto))\nprint('É um número?' , texto.isnumeric())\nprint('É uma string?', texto.isalpha())\nprint('É um alfanumerico?' , texto.isalnum())\nprint('Está tudo em maiusculas?' , texto.isupper())\nprint('Está tudo em minusculas?' , texto.islower())",
+        "detail": "exercicios-python.ex004",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "exercicios-python.ex005",
+        "description": "exercicios-python.ex005",
+        "peekOfCode": "num = int(input('Digite um número: '))\nprint('O antecessor de {} é {} e o sucessor dele é {}' .format(num, num - 1, num + 1 ))",
+        "detail": "exercicios-python.ex005",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "exercicios-python.ex006",
+        "description": "exercicios-python.ex006",
+        "peekOfCode": "num = int(input('Digite um número: ')) \nprint('A dobro de {} é {} \\no triplo de {} é {} \\ne a sua raiz quadrada é {:.2f}.' .format(num, num * 2, num , num * 3, pow(num, 1/2)))",
+        "detail": "exercicios-python.ex006",
+        "documentation": {}
+    },
+    {
+        "label": "nt1",
+        "kind": 5,
+        "importPath": "exercicios-python.ex007",
+        "description": "exercicios-python.ex007",
+        "peekOfCode": "nt1 = float(input('Digite a primeira nota: '))\nnt2 = float(input('Digite a segunda nota: '))\nm = (nt1 + nt2) / 2\nprint('A primeira nota foi {} a segunda nota foi {} a média é {:.1f}' .format(nt1, nt2, m))",
+        "detail": "exercicios-python.ex007",
+        "documentation": {}
+    },
+    {
+        "label": "nt2",
+        "kind": 5,
+        "importPath": "exercicios-python.ex007",
+        "description": "exercicios-python.ex007",
+        "peekOfCode": "nt2 = float(input('Digite a segunda nota: '))\nm = (nt1 + nt2) / 2\nprint('A primeira nota foi {} a segunda nota foi {} a média é {:.1f}' .format(nt1, nt2, m))",
+        "detail": "exercicios-python.ex007",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "exercicios-python.ex007",
+        "description": "exercicios-python.ex007",
+        "peekOfCode": "m = (nt1 + nt2) / 2\nprint('A primeira nota foi {} a segunda nota foi {} a média é {:.1f}' .format(nt1, nt2, m))",
+        "detail": "exercicios-python.ex007",
+        "documentation": {}
+    },
+    {
+        "label": "metros",
+        "kind": 5,
+        "importPath": "exercicios-python.ex008",
+        "description": "exercicios-python.ex008",
+        "peekOfCode": "metros = float(input('Digite o comprimento em metros: '))\nhm = metros / 100\nprint(\"O valor de {} metros em milimetros corresponde a {} milimetros\" .format(metros, metros * 1000))\nprint(\"O valor de {} metros em centimetros corresponde a {} centimetros\" .format(metros, metros * 100))\nprint(\"O valor de {} metros em decimetros corresponde a {} decimetros\" .format(metros, metros * 10))\nprint(\"O valor de {} metros em decametros corresponde a {} decametros\" .format(metros, metros / 10))\nprint(\"O valor de {} metros em hectometros corresponde a {} hectometros\" .format(metros, metros / 100))\nprint(\"O valor de {} metros em Quílometos corresponde a {} Quílometros\" .format(metros, metros / 1000))\nprint(\"O valor de {} metros em polegada corresponde a {:.2f} polegadas\" .format(metros, metros * 39.37))",
+        "detail": "exercicios-python.ex008",
+        "documentation": {}
+    },
+    {
+        "label": "hm",
+        "kind": 5,
+        "importPath": "exercicios-python.ex008",
+        "description": "exercicios-python.ex008",
+        "peekOfCode": "hm = metros / 100\nprint(\"O valor de {} metros em milimetros corresponde a {} milimetros\" .format(metros, metros * 1000))\nprint(\"O valor de {} metros em centimetros corresponde a {} centimetros\" .format(metros, metros * 100))\nprint(\"O valor de {} metros em decimetros corresponde a {} decimetros\" .format(metros, metros * 10))\nprint(\"O valor de {} metros em decametros corresponde a {} decametros\" .format(metros, metros / 10))\nprint(\"O valor de {} metros em hectometros corresponde a {} hectometros\" .format(metros, metros / 100))\nprint(\"O valor de {} metros em Quílometos corresponde a {} Quílometros\" .format(metros, metros / 1000))\nprint(\"O valor de {} metros em polegada corresponde a {:.2f} polegadas\" .format(metros, metros * 39.37))",
+        "detail": "exercicios-python.ex008",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "exercicios-python.ex009",
+        "description": "exercicios-python.ex009",
+        "peekOfCode": "num = int(input(\"digite um número: \"))\nprint('{} x {:2} = {}' .format(num , 1, num * 1))\nprint('{} x {:2} = {}' .format(num , 2, num * 2))\nprint('{} x {:2} = {}' .format(num , 3, num * 3))\nprint('{} x {:2} = {}' .format(num , 4, num * 4))\nprint('{} x {:2} = {}' .format(num , 5, num * 5))\nprint('{} x {:2} = {}' .format(num , 6, num * 6))\nprint('{} x {:2} = {}' .format(num , 7, num * 7))\nprint('{} x {:2} = {}' .format(num , 8, num * 8))\nprint('{} x {:2} = {}' .format(num , 9, num * 9))",
+        "detail": "exercicios-python.ex009",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "exercicios-python.ex010",
+        "description": "exercicios-python.ex010",
+        "peekOfCode": "num = float(input('Quanto dinheiro você tem na carteira R$'))\ndolar = num / 5.70\neuro = num / 6.18\nyen = num /   0.03764\nprint('Você tem R${:.2f} na sua carteira, você pode comprar ${:.2f}!' .format(num , dolar))\nprint(\"Você tem R${} na sua carteira, você pode comprar EUR{:.2f}!\" .format(num, euro))\nprint(\"Você tem R${} na sua carteira, você pode comprar IENE{:.2f}!\" .format(num, yen))",
+        "detail": "exercicios-python.ex010",
+        "documentation": {}
+    },
+    {
+        "label": "dolar",
+        "kind": 5,
+        "importPath": "exercicios-python.ex010",
+        "description": "exercicios-python.ex010",
+        "peekOfCode": "dolar = num / 5.70\neuro = num / 6.18\nyen = num /   0.03764\nprint('Você tem R${:.2f} na sua carteira, você pode comprar ${:.2f}!' .format(num , dolar))\nprint(\"Você tem R${} na sua carteira, você pode comprar EUR{:.2f}!\" .format(num, euro))\nprint(\"Você tem R${} na sua carteira, você pode comprar IENE{:.2f}!\" .format(num, yen))",
+        "detail": "exercicios-python.ex010",
+        "documentation": {}
+    },
+    {
+        "label": "euro",
+        "kind": 5,
+        "importPath": "exercicios-python.ex010",
+        "description": "exercicios-python.ex010",
+        "peekOfCode": "euro = num / 6.18\nyen = num /   0.03764\nprint('Você tem R${:.2f} na sua carteira, você pode comprar ${:.2f}!' .format(num , dolar))\nprint(\"Você tem R${} na sua carteira, você pode comprar EUR{:.2f}!\" .format(num, euro))\nprint(\"Você tem R${} na sua carteira, você pode comprar IENE{:.2f}!\" .format(num, yen))",
+        "detail": "exercicios-python.ex010",
+        "documentation": {}
+    },
+    {
+        "label": "yen",
+        "kind": 5,
+        "importPath": "exercicios-python.ex010",
+        "description": "exercicios-python.ex010",
+        "peekOfCode": "yen = num /   0.03764\nprint('Você tem R${:.2f} na sua carteira, você pode comprar ${:.2f}!' .format(num , dolar))\nprint(\"Você tem R${} na sua carteira, você pode comprar EUR{:.2f}!\" .format(num, euro))\nprint(\"Você tem R${} na sua carteira, você pode comprar IENE{:.2f}!\" .format(num, yen))",
+        "detail": "exercicios-python.ex010",
+        "documentation": {}
+    },
+    {
+        "label": "altura",
+        "kind": 5,
+        "importPath": "exercicios-python.ex011",
+        "description": "exercicios-python.ex011",
+        "peekOfCode": "altura = float(input('Qual a altura da parede? '))\nlargura = float(input('Qual a largura da parede? '))\ncalculo = (altura * largura) / 2\nprint('Será necessario {} litros de tinta para pintar toda sua parede' .format(calculo))",
+        "detail": "exercicios-python.ex011",
+        "documentation": {}
+    },
+    {
+        "label": "largura",
+        "kind": 5,
+        "importPath": "exercicios-python.ex011",
+        "description": "exercicios-python.ex011",
+        "peekOfCode": "largura = float(input('Qual a largura da parede? '))\ncalculo = (altura * largura) / 2\nprint('Será necessario {} litros de tinta para pintar toda sua parede' .format(calculo))",
+        "detail": "exercicios-python.ex011",
+        "documentation": {}
+    },
+    {
+        "label": "calculo",
+        "kind": 5,
+        "importPath": "exercicios-python.ex011",
+        "description": "exercicios-python.ex011",
+        "peekOfCode": "calculo = (altura * largura) / 2\nprint('Será necessario {} litros de tinta para pintar toda sua parede' .format(calculo))",
+        "detail": "exercicios-python.ex011",
+        "documentation": {}
+    },
+    {
+        "label": "produto",
+        "kind": 5,
+        "importPath": "exercicios-python.ex012",
+        "description": "exercicios-python.ex012",
+        "peekOfCode": "produto = float(input(\"Qual é o valor do produto R$\"))\ns = produto * (5 / 100)\nd = produto - s \nprint(\"O valor do produto original era de R${:.2f} e com 5% de desconto ficou com valor de R${:.2f}\" .format(produto, d))",
+        "detail": "exercicios-python.ex012",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "exercicios-python.ex012",
+        "description": "exercicios-python.ex012",
+        "peekOfCode": "s = produto * (5 / 100)\nd = produto - s \nprint(\"O valor do produto original era de R${:.2f} e com 5% de desconto ficou com valor de R${:.2f}\" .format(produto, d))",
+        "detail": "exercicios-python.ex012",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "exercicios-python.ex012",
+        "description": "exercicios-python.ex012",
+        "peekOfCode": "d = produto - s \nprint(\"O valor do produto original era de R${:.2f} e com 5% de desconto ficou com valor de R${:.2f}\" .format(produto, d))",
+        "detail": "exercicios-python.ex012",
+        "documentation": {}
+    },
+    {
+        "label": "salario",
+        "kind": 5,
+        "importPath": "exercicios-python.ex013",
+        "description": "exercicios-python.ex013",
+        "peekOfCode": "salario = float(input(\"Digite o sálario do funcionario: \"))\nsalario_porcento = salario + (salario * (15 / 100))\nprint(\"O valor inicial do salário era de R${:.2f} e com 15% de aumento ira ficar R${:.2f}\" .format(salario, salario_porcento))",
+        "detail": "exercicios-python.ex013",
+        "documentation": {}
+    },
+    {
+        "label": "salario_porcento",
+        "kind": 5,
+        "importPath": "exercicios-python.ex013",
+        "description": "exercicios-python.ex013",
+        "peekOfCode": "salario_porcento = salario + (salario * (15 / 100))\nprint(\"O valor inicial do salário era de R${:.2f} e com 15% de aumento ira ficar R${:.2f}\" .format(salario, salario_porcento))",
+        "detail": "exercicios-python.ex013",
+        "documentation": {}
+    },
+    {
+        "label": "temp",
+        "kind": 5,
+        "importPath": "exercicios-python.ex014",
+        "description": "exercicios-python.ex014",
+        "peekOfCode": "temp = float(input(\"Qual é a temperatura em C°\"))\nf = temp * 9/5 + 32\nk = temp + 273.15\nprint(f\"A temperatura de {temp} C° convertida para fahrenheit é de {f} F° \")\nprint(f\"A temperatura de {temp} C° convertida para kelvin é de {k} K\")",
+        "detail": "exercicios-python.ex014",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "exercicios-python.ex014",
+        "description": "exercicios-python.ex014",
+        "peekOfCode": "f = temp * 9/5 + 32\nk = temp + 273.15\nprint(f\"A temperatura de {temp} C° convertida para fahrenheit é de {f} F° \")\nprint(f\"A temperatura de {temp} C° convertida para kelvin é de {k} K\")",
+        "detail": "exercicios-python.ex014",
+        "documentation": {}
+    },
+    {
+        "label": "k",
+        "kind": 5,
+        "importPath": "exercicios-python.ex014",
+        "description": "exercicios-python.ex014",
+        "peekOfCode": "k = temp + 273.15\nprint(f\"A temperatura de {temp} C° convertida para fahrenheit é de {f} F° \")\nprint(f\"A temperatura de {temp} C° convertida para kelvin é de {k} K\")",
+        "detail": "exercicios-python.ex014",
+        "documentation": {}
+    },
+    {
+        "label": "km",
+        "kind": 5,
+        "importPath": "exercicios-python.ex015",
+        "description": "exercicios-python.ex015",
+        "peekOfCode": "km = float(input(\"Quantos km foram rodados? \"))\ndia = int(input(\"Por quantos dias o carro foi alugado? \"))\ndiaria = dia * 60\nquilometros = km * 0.15\ns = diaria + quilometros\nprint(\"O carro foi alugado por {} dias, o valor da diaria ficou R${}\" .format(dia, diaria))\nprint(\"Foi rodado {}km/h, o valor ficou R${:.2f}\" .format(km, quilometros))\nprint(\"O valor total a ser pago será de R${:.2f}\" .format(s))",
+        "detail": "exercicios-python.ex015",
+        "documentation": {}
+    },
+    {
+        "label": "dia",
+        "kind": 5,
+        "importPath": "exercicios-python.ex015",
+        "description": "exercicios-python.ex015",
+        "peekOfCode": "dia = int(input(\"Por quantos dias o carro foi alugado? \"))\ndiaria = dia * 60\nquilometros = km * 0.15\ns = diaria + quilometros\nprint(\"O carro foi alugado por {} dias, o valor da diaria ficou R${}\" .format(dia, diaria))\nprint(\"Foi rodado {}km/h, o valor ficou R${:.2f}\" .format(km, quilometros))\nprint(\"O valor total a ser pago será de R${:.2f}\" .format(s))",
+        "detail": "exercicios-python.ex015",
+        "documentation": {}
+    },
+    {
+        "label": "diaria",
+        "kind": 5,
+        "importPath": "exercicios-python.ex015",
+        "description": "exercicios-python.ex015",
+        "peekOfCode": "diaria = dia * 60\nquilometros = km * 0.15\ns = diaria + quilometros\nprint(\"O carro foi alugado por {} dias, o valor da diaria ficou R${}\" .format(dia, diaria))\nprint(\"Foi rodado {}km/h, o valor ficou R${:.2f}\" .format(km, quilometros))\nprint(\"O valor total a ser pago será de R${:.2f}\" .format(s))",
+        "detail": "exercicios-python.ex015",
+        "documentation": {}
+    },
+    {
+        "label": "quilometros",
+        "kind": 5,
+        "importPath": "exercicios-python.ex015",
+        "description": "exercicios-python.ex015",
+        "peekOfCode": "quilometros = km * 0.15\ns = diaria + quilometros\nprint(\"O carro foi alugado por {} dias, o valor da diaria ficou R${}\" .format(dia, diaria))\nprint(\"Foi rodado {}km/h, o valor ficou R${:.2f}\" .format(km, quilometros))\nprint(\"O valor total a ser pago será de R${:.2f}\" .format(s))",
+        "detail": "exercicios-python.ex015",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "exercicios-python.ex015",
+        "description": "exercicios-python.ex015",
+        "peekOfCode": "s = diaria + quilometros\nprint(\"O carro foi alugado por {} dias, o valor da diaria ficou R${}\" .format(dia, diaria))\nprint(\"Foi rodado {}km/h, o valor ficou R${:.2f}\" .format(km, quilometros))\nprint(\"O valor total a ser pago será de R${:.2f}\" .format(s))",
+        "detail": "exercicios-python.ex015",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "python-teste.aula06a",
+        "description": "python-teste.aula06a",
+        "peekOfCode": "n1 = int(input(\"Digite um número: \"))\nn2 = int(input(\"Digite outro número: \"))\ns = n1 + n2\nprint('A soma entre {} e {} vale {}' .format(n1, n2, s))\nprint(type(s))",
+        "detail": "python-teste.aula06a",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "python-teste.aula06a",
+        "description": "python-teste.aula06a",
+        "peekOfCode": "n2 = int(input(\"Digite outro número: \"))\ns = n1 + n2\nprint('A soma entre {} e {} vale {}' .format(n1, n2, s))\nprint(type(s))",
+        "detail": "python-teste.aula06a",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "python-teste.aula06a",
+        "description": "python-teste.aula06a",
+        "peekOfCode": "s = n1 + n2\nprint('A soma entre {} e {} vale {}' .format(n1, n2, s))\nprint(type(s))",
+        "detail": "python-teste.aula06a",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "python-teste.aula06b",
+        "description": "python-teste.aula06b",
+        "peekOfCode": "n1 = input(\"Digite um valor: \")\nprint(n1.isupper())",
+        "detail": "python-teste.aula06b",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "python-teste.aula07a",
+        "description": "python-teste.aula07a",
+        "peekOfCode": "n1 = int(input('Digite um numero: '))\nn2 = int(input('Digite outro número: '))\ns = n1 - n2\na = n1 + n2\nm = n1 * n2\nd = n1 / n2\nr = n1 % n2\nprint('A subtração é {}  a adição é {}  e a multiplicação é {}' .format(s, a, m), end=' >>> ')\nprint('A divisão é {:.2f} e o resto da divisão é {:.2f}' .format(d, r))",
+        "detail": "python-teste.aula07a",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "python-teste.aula07a",
+        "description": "python-teste.aula07a",
+        "peekOfCode": "n2 = int(input('Digite outro número: '))\ns = n1 - n2\na = n1 + n2\nm = n1 * n2\nd = n1 / n2\nr = n1 % n2\nprint('A subtração é {}  a adição é {}  e a multiplicação é {}' .format(s, a, m), end=' >>> ')\nprint('A divisão é {:.2f} e o resto da divisão é {:.2f}' .format(d, r))",
+        "detail": "python-teste.aula07a",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "python-teste.aula07a",
+        "description": "python-teste.aula07a",
+        "peekOfCode": "s = n1 - n2\na = n1 + n2\nm = n1 * n2\nd = n1 / n2\nr = n1 % n2\nprint('A subtração é {}  a adição é {}  e a multiplicação é {}' .format(s, a, m), end=' >>> ')\nprint('A divisão é {:.2f} e o resto da divisão é {:.2f}' .format(d, r))",
+        "detail": "python-teste.aula07a",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "python-teste.aula07a",
+        "description": "python-teste.aula07a",
+        "peekOfCode": "a = n1 + n2\nm = n1 * n2\nd = n1 / n2\nr = n1 % n2\nprint('A subtração é {}  a adição é {}  e a multiplicação é {}' .format(s, a, m), end=' >>> ')\nprint('A divisão é {:.2f} e o resto da divisão é {:.2f}' .format(d, r))",
+        "detail": "python-teste.aula07a",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "python-teste.aula07a",
+        "description": "python-teste.aula07a",
+        "peekOfCode": "m = n1 * n2\nd = n1 / n2\nr = n1 % n2\nprint('A subtração é {}  a adição é {}  e a multiplicação é {}' .format(s, a, m), end=' >>> ')\nprint('A divisão é {:.2f} e o resto da divisão é {:.2f}' .format(d, r))",
+        "detail": "python-teste.aula07a",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "python-teste.aula07a",
+        "description": "python-teste.aula07a",
+        "peekOfCode": "d = n1 / n2\nr = n1 % n2\nprint('A subtração é {}  a adição é {}  e a multiplicação é {}' .format(s, a, m), end=' >>> ')\nprint('A divisão é {:.2f} e o resto da divisão é {:.2f}' .format(d, r))",
+        "detail": "python-teste.aula07a",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "python-teste.aula07a",
+        "description": "python-teste.aula07a",
+        "peekOfCode": "r = n1 % n2\nprint('A subtração é {}  a adição é {}  e a multiplicação é {}' .format(s, a, m), end=' >>> ')\nprint('A divisão é {:.2f} e o resto da divisão é {:.2f}' .format(d, r))",
+        "detail": "python-teste.aula07a",
+        "documentation": {}
+    }
+]
