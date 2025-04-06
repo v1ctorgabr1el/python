@@ -1,10 +1,12 @@
 #pede para o usuário digitar o valor inicial do produto.
 produto = float(input("Digite o preço do produto: "))
+
 #Pede para o usuário digitar o valor do desconto do produto.
 desconto = int(input("Digite o valor do desconto: "))
 
 #calcula o valor inicial do produto vezes os valor do desconto.
 desconto_produto = (produto * desconto / 100) 
+
 #faz a soma total do desconto.
 total = produto - desconto_produto 
 
