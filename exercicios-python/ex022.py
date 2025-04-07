@@ -1,11 +1,16 @@
-num = int(input("Digite um número de 0 a 9999: "))
+#Pede para o usuário digitar seu nome.
+nome = input("Digite seu nome: ")
 
-milhar = num // 1000
-centena  = (num % 1000) // 100
-dezena =  (num % 100) // 10
-unidade = num % 10
+#joga todo nome do usuário para maiusculas.
+print(f"o seu nome todo em maiusculas é {nome.upper()}")
 
-print(f"milhar {milhar}")
-print(f"centena {centena}")
-print(f"dezena {dezena}")
-print(f"Unidade {unidade}")
+#joga todo nome do usuário para minusculas.
+print(f"O seu nome todo em minusculas é {nome.lower()}")
+
+#conta quantas letras o nome tem sem considerar os espaços.
+print(f"O seu nome completo tem ao todo {len(''.join(nome.split()))} letras sem considerar espaços.")
+
+
+
+#conta quantas letras tem o primeiro nome do usuário.
+print(f"O seu primeiro nome tem {len(nome.split()[0])} letras.")
