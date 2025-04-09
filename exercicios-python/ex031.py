@@ -1,9 +1,9 @@
-km = float(input("Digite a distância da viagem: "))
+distância = float(input("Digite a distância da viagem: "))
 
-if km <= 200:
-    viagem_200_km = km * 0.50
-    print(f"A sua viagem vai custar R${viagem_200_km:.2f}")
+if distância <= 200:
+    viagens_entre_200_km = distância * 0.50
+    print(f"A sua viagem vai custar R${viagens_entre_200:.2f}")
 
 else:
-    viagem_maior_de_200 = km * 0.45
-    print(f"A sua viagem vai custar R${viagem_maior_de_200:.2f}")
+    viagens_maiores_que_200 = distância * 0.45
+    print(f"A sua viagem vai custar R${viagens_maiores_que_200:.2f}")
